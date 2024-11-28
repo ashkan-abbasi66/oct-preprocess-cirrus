@@ -11,7 +11,7 @@ from utils import show_sample
 """
 read_img
 """
-data_dir = r'C:\Users\abbasi\POSTDOC\PYTHON_CODES\oct-3d-ohsu\nyudata_analysis\samples'
+data_dir = r'D:\POSTDOC\PYTHON_CODES\oct-3d-ohsu\nyudata_analysis\samples'
 filepath = os.path.join(data_dir, '330_Optic Disc Cube 200x200_2-21-2012_9-8-0_OD_sn12108_cube_z.img')
 img_vol = read_img(filepath)
 
